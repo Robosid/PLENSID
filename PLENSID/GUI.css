@@ -1,0 +1,99 @@
+/* Copyright [2017] [Sid Mahapatra]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+body {
+    background-color: #cbd;
+}
+
+footer {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+}
+
+.rotateL {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+
+a {
+    color: black;
+}
+
+footer iframe {
+    position: relative;
+    top: 7px;
+    left: 12px;
+    border: none;
+}
+
+div#controls {
+    padding: 6px;
+
+    width: 163px;
+    height: 538px;
+    margin: 0;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+
+    background-color: #ccc;
+    border-radius: 6px;
+
+    box-shadow: inset 0 0 6px #444;
+    
+    overflow: scroll;
+}
+
+div#main {
+    position: relative;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+
+    width: 1200px;
+    height: 600px;
+
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+
+    box-shadow: 25px 25px 5px -12px #444;
+    
+    background-color: #688
+}
+
+div#viewer {
+    position: absolute;
+    top: 25px;
+    left: 315px;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+div#advanced_controls {
+    display: none;
+}
+
+input#pitch {
+    width: 80px;
+}
+
+input#aperture {
+    width: 65px;
+}
